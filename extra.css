@@ -1,0 +1,38 @@
+.hand li {
+	cursor: pointer;
+}
+
+
+#player-hand {
+	list-style-type: none;
+	overflow: hidden;
+	padding-left: 0;
+}
+
+#player-hand li {
+	float: left;
+	width: 100px;
+	padding: 80px 0;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin-right: 10px;
+}
+
+#computer-hand {
+	width: 100px;
+	padding: 80px 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+#player-hand li:hover {
+	background-color: #ccc;
+}
+
+#computer-score, #player-score {
+	float: left;
+}
+
+#computer-score span, #player-score span {
+	font-size: 200px;
+}
